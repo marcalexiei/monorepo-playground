@@ -9,12 +9,17 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "biome format --write src ./*.json"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marcalexiei/monorepo-playground.git"
   },
   "author": "Marco Pasqualetti <marco.pasqualetti@live.com>",
+
+
+
+
   "license": "MIT"
 }
