@@ -6,8 +6,9 @@
   "type": "module",
   "scripts": {
     "build": "npm run build -workspaces",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "format": "biome format --write ./*.json && npm run format -workspaces"
+    "test": "npm run test -workspaces",
+    "format": "biome format --write ./*.json && npm run format -workspaces",
+    "format:check": "biome format ./*.json && npm run format:check -workspaces"
   },
   "repository": {
     "type": "git",
