@@ -12,10 +12,14 @@ The main idea is to have a minimal setup with `npm` and `typescript` and `biome`
 
 ## Tools to try out
 
-- [ ] test with `vitest`
-- [ ] build system with `vite`
-- [ ] add commitlint
-- [ ] add formatter
+- [ ] test 
+  - [ ] `vitest`
+- [ ] build 
+  - [ ] `vite`
+- [ ] add `commitlint`
+- [ ] add git hooks tool
+  - [ ] `husky` 
+  - [ ] `lefthook` (parallelism is a nice interesting)
 - [ ] add linter
 
 ## Features
