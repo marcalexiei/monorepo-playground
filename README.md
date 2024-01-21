@@ -7,20 +7,24 @@ The main idea is to have a minimal setup with `npm` and `typescript` and `biome`
 - build
 - test
 - package managers
-- JS runtimes
+- JS runtime
 - ...
 
 ## Tools to try out
 
-- [ ] test 
-  - [ ] `vitest`
-- [ ] build 
-  - [ ] `vite`
-- [ ] add `commitlint`
-- [ ] add git hooks tool
-  - [ ] `husky` 
-  - [ ] `lefthook` (parallelism is a nice interesting)
-- [ ] add linter
+- test 
+  - `vitest`
+- build 
+  - `vite`
+- add `commitlint`
+- add git hooks tool
+  - `husky` 
+  - `lefthook` (parallelism is a nice to have)
+- add linter
+
+## Examples
+
+- [vite + react](https://github.com/marcalexiei/monorepo-playground-vite-react)
 
 ## Features
 
